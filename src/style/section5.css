@@ -1,0 +1,68 @@
+.contactsBlock{
+    margin-bottom: 40px;
+    padding: 100px;
+    display: flex;
+    gap: 100px;
+    background-color: #665F55;
+    color: #E1D4C9;
+}
+.contacts__title{
+    color:#E1D4C9;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+.contacts__titleSpan{
+    color: #B0907A;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 125%;
+}
+.contacts__offer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contacts__socials{
+    display: flex;
+    gap: 12px;
+}
+.button-icon-light{
+    display: flex;
+width: 60px;
+height: 60px;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+border: 1px solid #C1B6AD;
+}
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contacts-info p{
+    color: #E1D4C9;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 30px */
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contacts__items,.contacts__items a{
+    color:#E1D4C9;
+    font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}

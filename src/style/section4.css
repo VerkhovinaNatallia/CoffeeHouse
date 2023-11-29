@@ -1,0 +1,47 @@
+.mobilleApp{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom:100px;
+
+}
+.mobilleApp__block{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.mobilleApp__title{
+    font-family: Inter;
+font-size: 60px;
+font-style: italic;
+font-weight: 600;
+line-height: 125%; /* 75px */
+color: #403F3D;
+}
+.mobilleApp__titleSpan{
+color: #B0907A;
+}
+.mobilleApp__text{
+    color: #403F3D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.mobilleApp__button{
+    display: flex;
+    gap: 20px;
+}
+.button_app_store,.button_google_play{
+padding: 12px 20px;
+border: 1px solid #665F55;
+border-radius: 100px;
+display: flex;
+gap: 8px;
+
+}
+.button_app_store__block,.button_google_play__block{
+    text-align: left;
+}
